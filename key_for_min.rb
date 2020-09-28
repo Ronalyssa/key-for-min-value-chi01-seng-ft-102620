@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   lowest_key = nil
   name_hash.each do |element|
     element
-    binding.pry
+  
     if element[1] < lowest_value
       lowest_key = element[0]
     end
