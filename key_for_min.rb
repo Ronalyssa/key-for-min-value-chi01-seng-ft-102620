@@ -5,9 +5,10 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   index = 0
-  lowest_value = name_hash[key][value]
+  lowest_value = nil
   lowest_key = nil
   name_hash.each do |element|
+    lowest_value = name_hash[key][value]
     element
     if element[1] < lowest_value
       lowest_key = element[0]
