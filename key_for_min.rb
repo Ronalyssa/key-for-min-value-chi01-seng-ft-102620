@@ -5,7 +5,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   index = 0
-  lowest_value = n
+  lowest_value = name_hash[key][value]
   lowest_key = nil
   name_hash.each do |element|
     element
