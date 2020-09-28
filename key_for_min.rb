@@ -5,8 +5,8 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   index = 0
-  lowest_value = 500
-  lowest_key = "nil"
+  lowest_value = nil
+  lowest_key = nil
   name_hash.each do |element|
     element
     binding.pry
